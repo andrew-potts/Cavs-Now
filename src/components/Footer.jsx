@@ -8,11 +8,6 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <h3 className="font-bold text-xl mb-4">Cleveland Cavaliers</h3>
-            <p className="text-gray-300">
-              1 Center Court
-              <br />
-              Cleveland, OH 44115
-            </p>
           </div>
           <div>
             <h3 className="font-bold text-lg mb-4">Quick Links</h3>
@@ -67,10 +62,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="mt-8 pt-8 border-t border-gray-700 text-center text-gray-300">
-          <p>
-            &copy; {new Date().getFullYear()} Cleveland Cavaliers. All rights
-            reserved.
-          </p>
+          <p>This is a fan website.</p>
         </div>
       </div>
     </footer>

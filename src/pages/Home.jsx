@@ -5,17 +5,11 @@ const Home = () => {
   return (
     <div className="text-white">
       {/* Hero Section */}
-      <div
-        className="h-[500px] bg-cover bg-center relative"
-        style={{
-          backgroundImage:
-            'url("https://images.unsplash.com/photo-1504450758481-7338eba7524a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80")',
-        }}
-      >
+      <div className="h-[500px] relative bg-[#860038]">
         <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
           <div className="text-center">
             <h1 className="text-5xl font-bold mb-4">Cleveland Cavaliers</h1>
-            <p className="text-xl">Witness Greatness</p>
+            <p className="text-xl">#LetEmKnow</p>
           </div>
         </div>
       </div>
